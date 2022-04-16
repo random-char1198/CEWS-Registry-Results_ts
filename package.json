@@ -1,0 +1,17 @@
+{
+  "name": "ts1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.31",
+    "cheerio": "^1.0.0-rc.10",
+    "superagent": "^7.1.2"
+  },
+  "devDependencies": {
+    "@types/superagent": "^4.1.15"
+  }
+}
